@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="ko">
+ 
+<!-- Mirrored from tripath.vn/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jul 2017 07:37:36 GMT -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="Author" content="트라이패스">
+	<meta name="Keywords" content="트라이패스">
+	<meta name="Description" content="트라이패스">
+	<title>TRIPATH</title>
+    <!--[if lt IE 10]>
+    <script src="js/html5shiv.min.js"></script>
+	<script src="js/ie9.js"></script>
+	 <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/font.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/jquery.bxslider.css" />
+
+    <style type="text/css">
+       body {font-family: Nanum Barun Gothic,"나눔고딕", NanumGothic, Malgun Gothic, "돋움", Dotum, AppleGothic, sans-serif !important;}
+    </style>
+
+<script type='text/javascript'>
+var filter = "win16|win32|win64|mac";
+if(navigator.platform){
+        if(0 > filter.indexOf(navigator.platform.toLowerCase())){
+                window.location = '../m.tripath.co.kr/index.html';
+        }
+}
+        /*document.domain = "qsales.co.kr";
+        $(window).load(function(){
+                $('body').append(qSales.markup());
+                qSales.init(0);
+        });*/
+</script>
+
+<!-- Google Analytics tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101859238-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google Analytics tracking code -->
+
+
+  <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="js/common.js"></script>
+ <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function() {
+				var sec1H, sec2H, sec3H, sec4H;
+
+				  $('.selectLang').click(function(){
+					  $('.selectLang ul').stop().slideToggle();
+				  });
+
+				$(window).scroll(function(){
+					sec1H = $('#sec1').offset().top - 75;
+					sec2H = $('#sec2').offset().top - 75;
+					sec3H = $('#sec3').offset().top - 75;
+					sec4H = $('#sec4').offset().top - 75;
+					sec5H = $('#sec5').offset().top - 75;
+
+					 	if($(window).scrollTop() >= 0 && $(window).scrollTop() < sec2H) {
+							 $('a.scrollGnb').removeClass('active');
+							$('.scrollGnb1').addClass('active');
+
+						}else if($(window).scrollTop() >= sec2H && $(window).scrollTop() < sec3H)	{
+							$('a.scrollGnb').removeClass('active');
+							$('.scrollGnb2').addClass('active');
+
+						}else if($(window).scrollTop() >= sec3H && $(window).scrollTop() < sec4H)	{
+							$('a.scrollGnb').removeClass('active');
+							$('.scrollGnb3').addClass('active');
+
+						}else if($(window).scrollTop() >= sec4H && $(window).scrollTop() < sec5H)	{
+							 if($(window).scrollTop() + $(window).height() == $(document).height()) {
+							   $('a.scrollGnb').removeClass('active');
+								$('.scrollGnb5').addClass('active');
+							  }else{
+								$('a.scrollGnb').removeClass('active');
+								$('.scrollGnb4').addClass('active');
+							  }
+
+						}else if($(window).scrollTop() >= sec5H)	{
+							$('a.scrollGnb').removeClass('active');
+							$('.scrollGnb5').addClass('active');
+
+						}
+
+
+						if($(window).scrollTop() >= 10) {
+						$('#header').addClass('isBg');
+						$('#container').css('padding-top','75px');
+
+					 }else{
+						$('#header').removeClass('isBg');
+						$('#container').css('padding-top','0px');
+
+					 }
+				});
+
+			$('a.scrollGnb').each(function(){
+					$(this).click(function () {
+					var target = $(this.getAttribute('href'));
+					$('a.scrollGnb').removeClass('active');
+					$(this).addClass('active');
+					if (target.length) {
+							event.preventDefault();
+							$('html,body').animate({
+								scrollTop: target.offset().top - 75
+							}, 1000);
+						}
+
+				});
+
+
+
+			});
+
+			$('.historyCon').slimScroll({
+				height: '421px'
+			});
+
+			});
+
+			function initMap() {
+			  var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 17,
+				center: {lat: 37.468985, lng: 126.887666}
+			  });
+
+			  var image = 'img/tripathMarker.png';
+			  var beachMarker = new google.maps.Marker({
+				position: {lat: 37.468985, lng: 126.887666},
+				map: map,
+				icon: image
+			  });
+			}
+
+	</script>
+
+</head>
+<body>
+	<div id="skipNavi">
+		<ul>
+			<li><a href="#gnb">전체메뉴 바로가기</a></li>
+			<li><a href="#container">컨텐츠 바로가기</a></li>
+			<li><a href="#footer">하단메뉴 바로가기</a></li>
+		</ul>
+	</div>
+<!--wrap-->
+<div id="wrap">
+	<!--header-->
+	<div id="header">
+    <div class="inner">
+		<h1><a href="#"><img src="img/logo.png" alt="TRIPATH PLAY INNOVATIVE" /></a></h1>
+		<div class="gnb">
+			<ul>
+				<li id="high1"><a href="#sec1" class="scrollGnb scrollGnb1 active">Overview</a></li>
+				<li id="high2"><a href="#sec2" class="scrollGnb scrollGnb2">Greeting</a></li>
+				<li id="high3"><a href="#sec3" class="scrollGnb scrollGnb3">Organization</a></li>
+				<li id="high4"><a href="#sec4" class="scrollGnb scrollGnb4">History</a></li>
+				<li id="high5"><a href="#sec5" class="scrollGnb scrollGnb5">Contact us</a></li>
+				<li class="gnbStep2 selectLang"><a href="#" onClick="return false;">Korean</a>
+            <ul>
+              <li class="on"><a href="#",>Korean</a></li>
+              <li><a href="index_en.html" onClick="ga('send','event','언어전환','click','영문전환');">English</a></li>
+            </ul>
+        </li>
+				<li class="gnbStep2"><a href="../qsales.co.kr/index.html">Qsales</a></li>
+			</ul>
+		</div>
+    </div>
+	</div>
+	<!--//header-->
+	<!--container-->
+	<div id="container">
+		<!--overview-->
+		<div class="overview content" id="sec1">
+				<h2 class="blind"><img src="img/tripath.html" alt="tripath" /></h2>
+				<dl>
+					<dt>상상하고 도전하자</dt>
+					<dd>if you could imagine it, you can make it.</dd>
+				</dl>
+        <div class="greetingIcon">
+				<ul>
+					<li>Web Service</li>
+					<li>Mobile<br/>Application</li>
+					<li>UX / UI / GUI</li>
+					<li>Media S/W<br/>Interface Design</li>
+					<li>CMS. O&amp;M<br/>System</li>
+					<li>IP System /<br/>System Archithcture</li>
+				</ul>
+        </div>
+		</div>
+		<!--//overview-->
+		<!--greeting-->
+		<div class="greeting content" id="sec2">
+			<h3>열정과 의지로 혁신에 도전합니다.</h3>
+			<div class="h3SubTxt">
+				현재의 비즈니스 환경은 끊임없이 변화에 적응하고, 몰두하여 문제를 해결함으로써 가치를 창출해야 하는 시대입니다.<br/>
+				그러기 위해 ㈜트라이패스는 능동적으로 문제를 찾아내어 풀어갈 수 있도록 항상 깨어 있고자 합니다.<br/>
+				"상상하고 도전하자"는 열정과 의지를 바탕으로 창조적 혁신에 도전하는 ㈜트라이패스의 자세입니다.
+			</div>
+			<div class="ceoMsg">
+        <p>
+				(주)트라이패스는 Technology, People<br/>
+				그리고 Market에 대한 이해를 바탕으로<br/>
+				새로운 가치를 창출하는 IT기업입니다.<br/><br/>
+				'상상하고, 도전하자'라는 기업의 슬로건에 따라<br/>
+				항상 새로운 것에 도전하고, <br/>
+				결과를 만들어 내는 기업이 되고자 합니다.<br/><br/>
+				우리 회사의 유일한 자산이 "사람"이라는 점을 잊지 않고, <br/>
+				사람을 키우고 성장할 수 있는 환경을 만들기 위해<br/>
+				끊임없이 노력하겠습니다.<br/>
+				감사합니다.<br/><br/><br/>
+				대표이사<strong>김동준, 정유석</strong>
+        </p>
+			</div>
+		</div>
+		<!--//greeting-->
+    <!--organization-->
+		<div class="organization content" id="sec3">
+			<p><img src="img/organization.png" alt="트라이패스는 전략기획, 국내영업 해외사업, 경영지원, SS-Lab 디자인그룹, CG-Lab 개발그룹, 베트남, 태국 해외법인으로 구성되어있습니다." /></p>
+      <div class="organiTxt">
+			<ul>
+				<li>Qsales 솔루션 개발 및 고도화<br/>계약 수주 및 서비스 운영</li>
+				<li>SI 사업 추진 및 유지보수</li>
+				<li>솔루션 사업 개발, 서비스 운영 및<br/>해외 커머스 사업 운영</li>
+			</ul>
+      </div>
+		</div>
+		<!--//organization-->
+		<!--history-->
+		<div class="history content" id="sec4">
+			<div class="inner">
+				<h3>HISTORY</h3>
+				<div class="historyCon">
+					<table summary="2016 history">
+						<caption class="blind">2016 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+                                                        <th rowspan="8">2016</th>
+							<td class="month">10.</td>
+							<td>LG생활건강 GENESTORY 사업 개발</td>
+						</tr>
+						<tr>
+							<td class="month">09.</td>
+							<td>LG생활건강 화장수치화 인공지능 구축 계약</td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>팁스프로그램(민간투자주도형 기술창업지원)선정<br/>기계학습 기반 인공지능 세일즈 지원 솔루션 </td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>온라인 상담을 제공하는 방법, 서버 및 단말 특허 취득 (특허 제 10-1649254호)</td>
+						</tr>
+						<tr>
+							<td class="month">06.</td>
+							<td>코오롱 글로벌(주) / Qsales 및 신규 사업 솔루션 납품 계약</td>
+						</tr>
+						<tr>
+							<td class="month">06.</td>
+							<td>미래창조과학부 ‘K-Global 300기업’ 선정</td>
+						</tr>
+						<tr>
+							<td class="month">05.</td>
+							<td>쿨리지코너인베스트먼트 투자 유치</td>
+						</tr>
+					</table>
+					<table summary="2015 history">
+						<caption class="blind">2015 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="8">2015</th>
+							<td class="month">12.</td>
+							<td>LG생활건강 &amp; CNP코스메틱스 중국 MCN 플랫폼 구축</td>
+						</tr>
+						<tr>
+							<td class="month">10.</td>
+							<td>고려대 주관 제3회 창업아이디어 경진대회 최우수상 수상</td>
+						</tr>
+						<tr>
+							<td class="month">10.</td>
+							<td>충북창조경제혁신센터 입주 및 업무협약 체결</td>
+						</tr>
+						<tr>
+							<td class="month">09.</td>
+							<td>ADT캡스 / Qsales를 이용한 온라인 세일즈 솔루션 납품</td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>롯데 인재개발원웹사이트 개발</td>
+						</tr>
+						<tr>
+							<td class="month">05.</td>
+							<td>㈜BMW한독모터스 키즈테마파크 피코아일랜드 홈페이지 제작</td>
+						</tr>
+						<tr>
+							<td class="month">03.</td>
+							<td>삼성전자 NFC를 이용한 악세서리 개발 선행 프로젝트 진행</td>
+						</tr>
+						<tr>
+							<td class="month">01.</td>
+							<td>자사서비스 Qsales 클로즈 베타 오픈</td>
+						</tr>
+					</table>
+					<table summary="2014 history">
+						<caption class="blind">2014 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="5">2014</th>
+							<td class="month">12.</td>
+							<td>EV케어 벤처 인큐베이팅 사업 멘토 기업 선정</td>
+						</tr>
+						<tr>
+							<td class="month">10.</td>
+							<td>㈜트라이패스 기업부설연구소 설립</td>
+						</tr>
+						<tr>
+							<td class="month">04.</td>
+							<td>엔터프라이즈 Qsales 개발 착수</td>
+						</tr>
+						<tr>
+							<td class="month">03.</td>
+							<td>IMH 웰렛 스마트밸런스 상용화 서비스 구축</td>
+						</tr>
+						<tr>
+							<td class="month">01.</td>
+							<td>온라인콘텐츠공유서비스 제공서버, 제공방법 및 그 방법을 위한 기록매체 특허 취득 (특허 제 10-1350712호)</td>
+						</tr>
+					</table>
+					<table summary="2013 history">
+						<caption class="blind">2013 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="3">2013</th>
+							<td class="month">12.</td>
+							<td>자사 서비스 Qadvice 베타 테스트 시작</td>
+						</tr>
+						<tr>
+							<td class="month">11.</td>
+							<td>한국벤처캐피탈협회 벤처기업 인증 획득</td>
+						</tr>
+						<tr>
+							<td class="month">04.</td>
+							<td>한국벤처투자㈜ 투자 집행</td>
+						</tr>
+					</table>
+					<table summary="2012 history">
+						<caption class="blind">2012 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="2">2012</th>
+							<td class="month">10.</td>
+							<td>온라인 콘텐츠공유 비즈니스 모델 특허 출원</td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>자사 서비스 원더큐브 서비스 오픈</td>
+						</tr>
+					</table>
+					<table summary="2011 history">
+						<caption class="blind">2011 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="2">2011</th>
+							<td class="month">01.</td>
+							<td>주식회사 트라이패스 설립 및 자사 서비스 원더큐브 개발 시작</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!--//history-->
+		<!--contact-->
+		<div class="contact content" id="sec5">
+			<div class="mapWrap">
+				<p class="contactLogo"><img src="img/tripathMap.png" alt="tripath play innovative" /></p>
+        <div class="mapZone" id="map"></div>
+			</div>
+			<p class="address">
+				(08591) 서울특별시 금천구 가산디지털1로 30 에이스 하이엔드타워 10차 208호 (가산동 660)<span>T</span>070. 7574. 7676<span>F</span>02. 2622. 8208<span>E</span>info@tripath.co.kr<br/>
+			    <img src="img/subwayLine1.png" alt="지하철 1호선" /> <strong>독산역</strong> 2번 출구에서 가산디지털단지역 방향으로 도보 5분
+			</p>
+		</div>
+		<!--//contact-->
+	</div>
+	<!--//container-->
+	<!--footer-->
+	<div id="footer">
+		<p><img src="img/address.png" alt="서울특별시 금천구 가산디지털1로 30(가산동) 에이스 하이엔드타워 10차 208-209호 전화번호 070-7574-7676 팩스번호 02-2622-8208 메일주소 info@tripath.co.kr  TRIPATH &copy; 2017 All right reserved."></p>
+	</div>
+	<!--//footer-->
+</div>
+<!--//wrap-->
+</body>
+<script async defer
+        src="../maps.googleapis.com/maps/api/jse2b2?key=AIzaSyD2k3bnvAhxp0BVtwmEeNGYtxsLl1xHxiE&amp;callback=initMap"></script>
+
+
+<!-- Mirrored from tripath.vn/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jul 2017 07:37:36 GMT -->
+</html>

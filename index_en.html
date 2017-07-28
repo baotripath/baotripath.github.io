@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+ 
+<!-- Mirrored from tripath.vn/index_en.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jul 2017 07:36:13 GMT -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="Author" content="Tripath">
+	<meta name="Keywords" content="Tripath">
+	<meta name="Description" content="Tripath">
+	<title>TRIPATH</title>
+    <!--[if lt IE 10]>
+    <script src="js/html5shiv.min.js"></script>
+	<script src="js/ie9.js"></script>
+	 <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/font.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/jquery.bxslider.css" />
+
+    <style type="text/css">
+       body {font-family: Nanum Barun Gothic,"나눔고딕", NanumGothic, Malgun Gothic, "돋움", Dotum, AppleGothic, sans-serif !important;}
+    </style>
+
+
+
+<!-- Google Analytics tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101859238-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google Analytics tracking code -->
+
+
+ <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="js/common.js"></script>
+ <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function() {
+				var sec1H, sec2H, sec3H, sec4H;
+
+				  $('.selectLang').click(function(){
+					  $('.selectLang ul').stop().slideToggle();
+				  });
+
+				$(window).scroll(function(){
+					sec1H = $('#sec1').offset().top - 75;
+					sec2H = $('#sec2').offset().top - 75;
+					sec3H = $('#sec3').offset().top - 75;
+					sec4H = $('#sec4').offset().top - 75;
+					sec5H = $('#sec5').offset().top - 75;
+
+					 	if($(window).scrollTop() >= 0 && $(window).scrollTop() < sec2H) {
+							 $('a.scrollGnb').removeClass('active');
+							$('.scrollGnb1').addClass('active');
+
+						}else if($(window).scrollTop() >= sec2H && $(window).scrollTop() < sec3H)	{
+							$('a.scrollGnb').removeClass('active');
+							$('.scrollGnb2').addClass('active');
+
+						}else if($(window).scrollTop() >= sec3H && $(window).scrollTop() < sec4H)	{
+							$('a.scrollGnb').removeClass('active');
+							$('.scrollGnb3').addClass('active');
+
+						}else if($(window).scrollTop() >= sec4H && $(window).scrollTop() < sec5H)	{
+							 if($(window).scrollTop() + $(window).height() == $(document).height()) {
+							   $('a.scrollGnb').removeClass('active');
+								$('.scrollGnb5').addClass('active');
+							  }else{
+								$('a.scrollGnb').removeClass('active');
+								$('.scrollGnb4').addClass('active');
+							  }
+
+						}else if($(window).scrollTop() >= sec5H)	{
+							$('a.scrollGnb').removeClass('active');
+							$('.scrollGnb5').addClass('active');
+
+						}
+
+
+						if($(window).scrollTop() >= 10) {
+						$('#header').addClass('isBg');
+						$('#container').css('padding-top','75px');
+
+					 }else{
+						$('#header').removeClass('isBg');
+						$('#container').css('padding-top','0px');
+
+					 }
+				});
+
+			$('a.scrollGnb').each(function(){
+					$(this).click(function () {
+					var target = $(this.getAttribute('href'));
+					$('a.scrollGnb').removeClass('active');
+					$(this).addClass('active');
+					if (target.length) {
+							event.preventDefault();
+							$('html,body').animate({
+								scrollTop: target.offset().top - 75
+							}, 1000);
+						}
+
+				});
+
+
+
+			});
+
+			$('.historyCon').slimScroll({
+				height: '421px'
+			});
+
+			});
+
+			function initMap() {
+			  var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 17,
+				center: {lat: 37.468985, lng: 126.887666}
+			  });
+
+			  var image = 'img/tripathMarker.png';
+			  var beachMarker = new google.maps.Marker({
+				position: {lat: 37.468985, lng: 126.887666},
+				map: map,
+				icon: image
+			  });
+			}
+
+	</script>
+
+</head>
+<body>
+	<div id="skipNavi">
+		<ul>
+			<li><a href="#gnb">전체메뉴 바로가기</a></li>
+			<li><a href="#container">컨텐츠 바로가기</a></li>
+			<li><a href="#footer">하단메뉴 바로가기</a></li>
+		</ul>
+	</div>
+<!--wrap-->
+<div id="wrap" class="en">
+	<!--header-->
+	<div id="header">
+    <div class="inner">
+		<h1><a href="#"><img src="img/logo.png" alt="TRIPATH PLAY INNOVATIVE" /></a></h1>
+		<div class="gnb">
+			<ul>
+				<li id="high1"><a href="#sec1" class="scrollGnb scrollGnb1 active">Overview</a></li>
+				<li id="high2"><a href="#sec2" class="scrollGnb scrollGnb2">Greeting</a></li>
+				<li id="high3"><a href="#sec3" class="scrollGnb scrollGnb3">Organization</a></li>
+				<li id="high4"><a href="#sec4" class="scrollGnb scrollGnb4">History</a></li>
+				<li id="high5"><a href="#sec5" class="scrollGnb scrollGnb5">Contact us</a></li>
+				<li class="gnbStep2 selectLang"><a href="#" onClick="return false;">English</a>
+            <ul>
+              <li><a href="index-2.html" onClick="ga('send','event','언어전환','click','한글전환');">Korean</a></li>
+              <li class="on"><a href="#">English</a></li>
+            </ul>
+        </li>
+				<li class="gnbStep2"><a href="../qsales.co.kr/index_en.html">Qsales</a></li>
+			</ul>
+		</div>
+    </div>
+	</div>
+	<!--//header-->
+	<!--container-->
+	<div id="container">
+		<!--overview-->
+		<div class="overview content" id="sec1">
+				<h2 class="blind"><img src="img/tripath.html" alt="tripath" /></h2>
+				<dl>
+					<dt>Imagine and challenge.</dt>
+					<dd>if you could imagine it, you can make it.</dd>
+				</dl>
+        <div class="greetingIcon">
+				<ul>
+					<li>Web Service</li>
+					<li>Mobile<br/>Application</li>
+					<li>UX / UI / GUI</li>
+					<li>Media S/W<br/>Interface Design</li>
+					<li>CMS. O&amp;M<br/>System</li>
+					<li>IP System /<br/>System Archithcture</li>
+				</ul>
+        </div>
+		</div>
+		<!--//overview-->
+		<!--greeting-->
+		<div class="greeting content" id="sec2">
+			<h3>We innovate with passion and determination.</h3>
+			<div class="h3SubTxt">
+				In the current business environment, it is necessary to constantly adapt to changes and focus on solving problems in order to create new values.<br/>
+				Tripath Inc. wishes to stay alert at all times to actively find and help solve problems.<br/>
+				Based on passion and commitment, “Imagine and challenge” is Tripath’s mission to take up the challenge of creative innovation.
+			</div>
+			<div class="ceoMsg">
+        <p>
+				Tripath Inc. is an IT corporation that creates new values based on its understanding on technology, people and market.<br/><br/>
+				In line with our corporation’s slogan “Imagine and Challenge”,<br/>
+				we want to become a company that continuously challenges new areas and produces results out of them.
+				<br/><br/>
+				We will never forget that the only asset of the corporation is its “people”,<br/>
+				and we will continually strive to create an environment where people can grow and develop.<br/>
+				Thank you.<br/><br/><br/>
+				CEO<strong>Kim Dong-jun, Jeong Yu-seok</strong>
+        </p>
+			</div>
+		</div>
+		<!--//greeting-->
+    <!--organization-->
+		<div class="organization content en" id="sec3">
+			<p><img src="img/organizationEn.png" alt="트라이패스는 전략기획, 국내영업 해외사업, 경영지원, SS-Lab 디자인그룹, CG-Lab 개발그룹, 베트남, 태국 해외법인으로 구성되어있습니다." /></p>
+      <div class="organiTxt">
+			<ul>
+				<li>Development and advancement<br/> of Qsales solution /<br/>winning contracts and operating services</li>
+				<li>SI business promotion<br/>and maintenance</li>
+				<li>Development of solution business,<br/>service operation and overseas commerce business operation</li>
+			</ul>
+      </div>
+		</div>
+		<!--//organization-->
+		<!--history-->
+		<div class="history content" id="sec4">
+			<div class="inner">
+				<h3>HISTORY</h3>
+				<div class="historyCon">
+					<table summary="2016 history">
+						<caption class="blind">2016 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+                                                        <th rowspan="8">2016</th>
+							<td class="month">10.</td>
+							<td>Developed LG Care GENESTORY</td>
+						</tr>
+						<tr>
+							<td class="month">09.</td>
+							<td>Contract to build a make-up digitizing artificial intelligence for LG Care</td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>Selected by the Tips Program (technology startup support of private initiated investment type)<br/>– solution that supports the sales of artificial intelligence based on machine learning</td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>Obtained patent on the method, server and device to provide online consultation (Patent number 10-1649254)</td>
+						</tr>
+						<tr>
+							<td class="month">06.</td>
+							<td>Colon Global Inc. / Contract to supply Qsales and new business solutions</td>
+						</tr>
+						<tr>
+							<td class="month">06.</td>
+							<td>Selected as one of the ‘K-Global 300 corporation’ by the Ministry of Science, ICT and Future Planning</td>
+						</tr>
+						<tr>
+							<td class="month">05.</td>
+							<td>Invitation to invest Coolidge Corner investments</td>
+						</tr>
+					</table>
+					<table summary="2015 history">
+						<caption class="blind">2015 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="8">2015</th>
+							<td class="month">12.</td>
+							<td>Built the China MCN platform of LG Care and CNP cosmetics</td>
+						</tr>
+						<tr>
+							<td class="month">10.</td>
+							<td>Won the best prize in the 3rd Startup Idea exhibition contest hosted by Korea University</td>
+						</tr>
+						<tr>
+							<td class="month">10.</td>
+							<td>Entered the North Chungbuk Creative Economic Innovation Center and signed a business agreement</td>
+						</tr>
+						<tr>
+							<td class="month">09.</td>
+							<td>Delivered online sales solution using ADT CAPS/ Qsales</td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>Developed Lotte Human Resource Development Institute site</td>
+						</tr>
+						<tr>
+							<td class="month">05.</td>
+							<td>Creation of the homepage of Pico Island, a kids’ theme park by BMW Korea and Germany Motors Inc.</td>
+						</tr>
+						<tr>
+							<td class="month">03.</td>
+							<td>Advancing the priority project to develop an accessory that uses the NFC of Samsung Electronics</td>
+						</tr>
+						<tr>
+							<td class="month">01.</td>
+							<td>Opening of the company’s own service Qsales close beta</td>
+						</tr>
+					</table>
+					<table summary="2014 history">
+						<caption class="blind">2014 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="5">2014</th>
+							<td class="month">12.</td>
+							<td>Selected as a mentor corporation for the EV Care Venture Incubating Business</td>
+						</tr>
+						<tr>
+							<td class="month">10.</td>
+							<td>Establishment of the corporate research institute of Tripath Co., Ltd.</td>
+						</tr>
+						<tr>
+							<td class="month">04.</td>
+							<td>Beginning the development of enterprise Qsales</td>
+						</tr>
+						<tr>
+							<td class="month">03.</td>
+							<td>Setting up a commercialization service for IMH wallet smart balance</td>
+						</tr>
+						<tr>
+							<td class="month">01.</td>
+							<td>Acquisition of patent for online content sharing service providing server, provision methods and the recording medium for the method (Patent number 10-1350712)</td>
+						</tr>
+					</table>
+					<table summary="2013 history">
+						<caption class="blind">2013 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="3">2013</th>
+							<td class="month">12.</td>
+							<td>Launching of the company’s own service, Qadvice beta test</td>
+						</tr>
+						<tr>
+							<td class="month">11.</td>
+							<td>Acquisition of venture corporation accreditation from Korea Venture Capital Association</td>
+						</tr>
+						<tr>
+							<td class="month">04.</td>
+							<td>Execution of investment by Korea Venture Investment Co., Ltd.</td>
+						</tr>
+					</table>
+					<table summary="2012 history">
+						<caption class="blind">2012 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="2">2012</th>
+							<td class="month">10.</td>
+							<td>Patent application of online content sharing business model</td>
+						</tr>
+						<tr>
+							<td class="month">08.</td>
+							<td>Opening of the company’s Wondercube service</td>
+						</tr>
+					</table>
+					<table summary="2011 history">
+						<caption class="blind">2011 history</caption>
+						<colgroup>
+							<col style="width:16%"/>
+							<col style="width:5%"/>
+							<col style="width:79%"/>
+						</colgroup>
+						<tr>
+							<th rowspan="2">2011</th>
+							<td class="month">01.</td>
+							<td>Establishment of Tripath Co., Ltd. and start of the development of the company’s own Wondercube service</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!--//history-->
+		<!--contact-->
+		<div class="contact content" id="sec5">
+			<div class="mapWrap">
+				<p class="contactLogo"><img src="img/tripathMap.png" alt="tripath play innovative" /></p>
+        <div class="mapZone" id="map"></div>
+			</div>
+			<p class="address">
+				208-209, 30, Gasan digital 1-ro, Geumcheon-gu, Seoul, Korea 08591<span>T</span>070. 7574. 7676<span>F</span>02. 2622. 8208<span>E</span>info@tripath.co.kr<br/>
+			    5 minute walking distance from <img src="img/subwayLine1.png" alt="지하철 1호선" />  <strong>Doksan Station</strong> exit number 2, from line 1, towards Gasan Digital Complex Station
+			</p>
+		</div>
+		<!--//contact-->
+	</div>
+	<!--//container-->
+	<!--footer-->
+	<div id="footer">
+		<p><img src="img/addressEn.png" alt="208-209, 30, Gasan digital 1-ro, Geumcheon-gu, Seoul, Republic of Korea T. 070-7574-7676     F. 02-2622-8208     M. info@tripath.co.kr TRIPATH &copy; 2017 All right reserved."></p>
+	</div>
+	<!--//footer-->
+</div>
+<!--//wrap-->
+</body>
+<script async defer
+        src="../maps.googleapis.com/maps/api/js99ef?key=AIzaSyD2k3bnvAhxp0BVtwmEeNGYtxsLl1xHxiE&amp;language=en&amp;callback=initMap"></script>
+
+
+<!-- Mirrored from tripath.vn/index_en.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jul 2017 07:36:27 GMT -->
+</html>
