@@ -1,0 +1,143 @@
+<div class="top-nav-wrapper">
+    <a href="index.html" title="Tripath Viet Nam" class="nav-logo">
+        <img class="nav-logo__img" src="images/tpvn/tpvn-logo.png" alt="Tripath logo">
+    </a>
+    <div class="nav-menu">
+        <div class="language-option">
+            <a class="selectLang" href="javascript:;"
+               style="background: url({{ 'images/tpvn/selectLang.png' | absolute_url }})no-repeat 25px 0px;">VN</a>
+            <ul class="languageTab">
+                <li>
+                    <a href="javascript:;" onclick="selectLang('VN')">Vietnamese</a>
+                </li>
+                <li>
+                    <a href="javascript:;" onclick="selectLang('EN')">English</a>
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper organization-content">
+            <div class="organization-box">
+                <a href="about.html" class="about-us {% if page.url contains 'about'%}actived{% endif %}">
+                    <span class="title">About us</span>
+                    <span class="category-text">Overview & Organization</span>
+                </a>
+            </div>
+            <div class="organization-box">
+                <a href="work.html" class="work {% if page.url contains 'work'%}actived{% endif %}">
+                    <span class="title">Work</span>
+                    <span class="category-text">Bussiness area</span>
+                </a>
+            </div>
+            <div class="organization-box">
+                <a href="contact.html" class="contact {% if page.url contains 'contact'%}actived{% endif %}">
+                    <span class="title">Contact</span>
+                    <span class="category-text">Get in touch</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tpvn-nav-wrapper">
+    <a href="index.html" title="Tripath Viet Nam" class="nav-logo">
+        <img class="nav-logo__img" src="images/tpvn/tpvn-logo.png" alt="Tripath logo">
+    </a>
+    <div class="nav-menu">
+        <div class="language-option">
+            <a class="selectLang" href="javascript:;"
+               style="background: url({{ 'images/tpvn/selectLang.png' | absolute_url }})no-repeat 25px 0px;">VN</a>
+            <ul class="languageTab">
+                <li>
+                    <a href="javascript:;" onclick="selectLang('VN')">Vietnamese</a>
+                </li>
+                <li>
+                    <a href="javascript:;" onclick="selectLang('EN')">English</a>
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper organization-content">
+            <div class="organization-box">
+                <a href="about.html" class="about-us {% if page.url contains 'about'%}actived{% endif %}">
+                    <span class="title">About us</span>
+                    <span class="category-text">Overview & Organization</span>
+                </a>
+            </div>
+            <div class="organization-box">
+                <a href="work.html" class="work {% if page.url contains 'work'%}actived{% endif %}">
+                    <span class="title">Work</span>
+                    <span class="category-text">Bussiness area</span>
+                </a>
+            </div>
+            <div class="organization-box">
+                <a href="contact.html" class="contact {% if page.url contains 'contact'%}actived{% endif %}">
+                    <span class="title">Contact</span>
+                    <span class="category-text">Get in touch</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        selectLang = function (language) {
+            $('.selectLang').text(language);
+            $('.languageTab').hide();
+        }
+        $('.selectLang').click(function () {
+            $(".languageTab").toggle("slow", function () {
+                // Animation complete.
+            });
+        });
+        var getTop = function () {
+            var width_screen = $(window).width();
+            if (width_screen <= 414) {
+                return 255;
+            }
+            if (width_screen > 414 && width_screen < 768) {
+                return 219;
+            }
+            return 271;
+        };
+
+        var position = $(window).scrollTop();
+        var top = getTop();
+        var flagIndex = 0;
+        var header_scroll = function (scroll, top) {
+            if (scroll > top) {
+                flagIndex = flagIndex + 1;
+                if (flagIndex < 0) {
+                    flagIndex = 0;
+                }
+                if (flagIndex == 1) {
+                    $('.tpvn-nav-wrapper').addClass('isScroll');
+                    $('.top-nav-wrapper').addClass('isScroll');
+                }
+                //
+            } else {
+                if (flagIndex >= 0) {
+                    flagIndex = 0;
+                }
+                flagIndex = flagIndex - 1;
+                if (flagIndex == -1) {
+                    $('.tpvn-nav-wrapper').removeClass('isScroll');
+                    $('.top-nav-wrapper').removeClass('isScroll');
+                }
+            }
+        };
+
+        header_scroll(position, top);
+
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            var top = $('.tpvn-nav-wrapper ~ div').offset().top;
+            header_scroll(scroll, top);
+        });
+
+        // animation transition pages
+        $('.bounceInUp').each(function (index) {
+            var deplayVal = index * 0.15;
+            $(this).css('-webkit-animation-delay', deplayVal + 's');
+            $(this).css('-moz-animation-delay', deplayVal + 's');
+            $(this).css('animation-delay', deplayVal + 's');
+        })
+    })
+</script>

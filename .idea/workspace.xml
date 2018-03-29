@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf5d6581-4bad-476f-8afa-cd8599574c97" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_css/_work.scss" afterPath="$PROJECT_DIR$/_css/_work.scss" />
+      <change beforePath="$PROJECT_DIR$/_css/tpvn.scss" afterPath="$PROJECT_DIR$/_css/tpvn.scss" />
+      <change beforePath="$PROJECT_DIR$/page/work.html" afterPath="$PROJECT_DIR$/page/work.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tpvn.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_css/tpvn.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_work.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_css/_work.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="e#2147#2234#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="46" selection-end-line="148" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>thanh</find>
+      <find>bảo</find>
+      <find>tpvn-nav-wrapper</find>
+      <find>global-nav-wrapper</find>
+      <find>getTop</find>
+      <find>beautyf</find>
+      <find>p.product-title</find>
+      <find>qsale-ti</find>
+      <find>product-title</find>
+      <find>.qsale-text</find>
+      <find>_minxin</find>
+      <find>odd</find>
+      <find>$white</find>
+      <find>ticker.set</find>
+      <find>fnStartAnimation</find>
+      <find>.tpvn-nav-wrapper</find>
+      <find>ticker</find>
+      <find>service-detail</find>
+      <find>animated bounceInUp</find>
+      <find>was</find>
+      <find>.languageTab</find>
+      <find>green</find>
+      <find>languageTab</find>
+      <find>768</find>
+      <find>span</find>
+      <find>box-sha</find>
+      <find>dis</find>
+      <find>mg-</find>
+      <find>mg-top40</find>
+      <find>mg-top</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fa fa-picture-o</replace>
+      <replace>fa fa-image</replace>
+      <replace>fas fa-camera-retro</replace>
+      <replace>fa fa-envelope-o</replace>
+      <replace>fas</replace>
+      <replace>nav-logo</replace>
+      <replace>cubic-bezier(0.4, 0.0, 0.6, 1)</replace>
+      <replace>271</replace>
+      <replace>tpvn-nav-wrapper</replace>
+      <replace>mg-top20</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\DWORK\Documents\HtmlJekyll</dir>
+      <dir>C:\Users\DWORK\Documents\HtmlJekyll\_site\js</dir>
+      <dir>C:\Users\DWORK\Documents\Tripath\tpvn\_site\images</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_site/tpvn-html/assets/tpvn.css" />
+        <option value="$PROJECT_DIR$/_site/work.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/page/contact.html" />
+        <option value="$PROJECT_DIR$/_css/_index.scss" />
+        <option value="$PROJECT_DIR$/_layouts/tpvn.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_includes/navigation_top.html" />
+        <option value="$PROJECT_DIR$/page/about.html" />
+        <option value="$PROJECT_DIR$/page/index.html" />
+        <option value="$PROJECT_DIR$/_css/_navigation_top.scss" />
+        <option value="$PROJECT_DIR$/_css/_about.scss" />
+        <option value="$PROJECT_DIR$/_css/_mixin.scss" />
+        <option value="$PROJECT_DIR$/js/logo_Animated--New.js" />
+        <option value="$PROJECT_DIR$/_css/_contact.scss" />
+        <option value="$PROJECT_DIR$/_css/_work.scss" />
+        <option value="$PROJECT_DIR$/page/work.html" />
+        <option value="$PROJECT_DIR$/_css/tpvn.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="66" />
+    <option name="y" value="89" />
+    <option name="width" value="1853" />
+    <option name="height" value="1073" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tpvn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpvn" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tpvn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpvn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tpvn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpvn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/tpvn" />
+      <recent name="C:\Users\DWORK\Documents\Tripath\tpvn\_site\images" />
+      <recent name="C:\Users\DWORK\Documents\Tripath\tpvn\_css" />
+      <recent name="C:\Users\DWORK\Documents\Tripath\tpvn\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf5d6581-4bad-476f-8afa-cd8599574c97" name="Default" comment="" />
+      <created>1517827955511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517827955511</updated>
+      <workItem from="1517827956698" duration="1906000" />
+      <workItem from="1517883017137" duration="5667000" />
+      <workItem from="1517997456314" duration="1000" />
+      <workItem from="1517997470523" duration="1872000" />
+      <workItem from="1517999467939" duration="44000" />
+      <workItem from="1518054017600" duration="3719000" />
+      <workItem from="1518057765835" duration="225000" />
+      <workItem from="1518058422026" duration="13227000" />
+      <workItem from="1518078038614" duration="6868000" />
+      <workItem from="1518085747389" duration="511000" />
+      <workItem from="1518141199546" duration="5285000" />
+      <workItem from="1518147157422" duration="1464000" />
+      <workItem from="1519783338464" duration="1108000" />
+      <workItem from="1519955645900" duration="10659000" />
+      <workItem from="1519972064565" duration="14268000" />
+      <workItem from="1520215123075" duration="22248000" />
+      <workItem from="1520300958328" duration="23189000" />
+      <workItem from="1520388806565" duration="9846000" />
+      <workItem from="1520414778581" duration="4338000" />
+      <workItem from="1520475962192" duration="7828000" />
+      <workItem from="1520499602898" duration="5267000" />
+      <workItem from="1520563470121" duration="3300000" />
+      <workItem from="1520582064673" duration="8390000" />
+      <workItem from="1520821021044" duration="2582000" />
+      <workItem from="1520824411706" duration="1915000" />
+      <workItem from="1520907236555" duration="3245000" />
+      <workItem from="1520926388333" duration="1889000" />
+      <workItem from="1520993457057" duration="1203000" />
+      <workItem from="1521017094191" duration="1340000" />
+      <workItem from="1521079719630" duration="9048000" />
+      <workItem from="1521165918920" duration="16000" />
+      <workItem from="1521770795279" duration="17246000" />
+      <workItem from="1522047119742" duration="63000" />
+      <workItem from="1522140283171" duration="2517000" />
+      <workItem from="1522203062846" duration="9555000" />
+      <workItem from="1522217671594" duration="6181000" />
+      <workItem from="1522250810080" duration="6302000" />
+      <workItem from="1522289984512" duration="8427000" />
+      <workItem from="1522305586973" duration="1201000" />
+      <workItem from="1522308852606" duration="2362000" />
+    </task>
+    <task id="LOCAL-00031" summary="animation for transition page">
+      <created>1520483371374</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1520483371374</updated>
+    </task>
+    <task id="LOCAL-00032" summary="remove lazyload lib">
+      <created>1520483414401</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1520483414401</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix index page">
+      <created>1520483680330</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1520483680331</updated>
+    </task>
+    <task id="LOCAL-00034" summary="remove font-awesome">
+      <created>1520500828712</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1520500828712</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix index page">
+      <created>1520500845413</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1520500845413</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix menu justify">
+      <created>1520501072766</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1520501072766</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add animate css file&#10;add createjs file">
+      <created>1520584701245</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1520584701245</updated>
+    </task>
+    <task id="LOCAL-00038" summary="adjust space between menu and below section">
+      <created>1520585683015</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1520585683015</updated>
+    </task>
+    <task id="LOCAL-00039" summary="adjust space between menu and below section">
+      <created>1520588989565</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1520588989565</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix menu navigation">
+      <created>1520589718474</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1520589718474</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fix effect scrolling">
+      <created>1520590441441</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1520590441441</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix space">
+      <created>1520822323169</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1520822323169</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix space">
+      <created>1520908379163</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1520908379163</updated>
+    </task>
+    <task id="LOCAL-00044" summary="change color bg flip back">
+      <created>1520911495819</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1520911495820</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix index">
+      <created>1520926435551</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1520926435551</updated>
+    </task>
+    <task id="LOCAL-00046" summary="remove &quot;}&quot;">
+      <created>1520994046560</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1520994046560</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix animate navigate t">
+      <created>1521017825129</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1521017825129</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix work qsale banner, service feature">
+      <created>1521086794021</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1521086794022</updated>
+    </task>
+    <task id="LOCAL-00049" summary="random employees">
+      <created>1521774414476</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1521774414476</updated>
+    </task>
+    <task id="LOCAL-00050" summary="random employees">
+      <created>1521774433990</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1521774433990</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix hidden navigation while scroll down">
+      <created>1521792618567</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1521792618567</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix hidden navigation while scroll down">
+      <created>1521792931634</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1521792931634</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix navigation scroll">
+      <created>1522142953373</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1522142953374</updated>
+    </task>
+    <task id="LOCAL-00054" summary="max width for service description">
+      <created>1522143194705</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1522143194706</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix scroll navigation">
+      <created>1522205959935</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1522205959935</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add linkedin for Narin's profile">
+      <created>1522206214761</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1522206214761</updated>
+    </task>
+    <task id="LOCAL-00057" summary="remove nav animate when scroll up to top">
+      <created>1522206935950</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1522206935950</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix nav animation">
+      <created>1522208001577</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1522208001578</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix hover employee">
+      <created>1522209678425</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1522209678425</updated>
+    </task>
+    <task id="LOCAL-00060" summary="max-width 1024 for service-detail">
+      <created>1522217943600</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1522217943601</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix flip employee">
+      <created>1522220773798</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1522220773798</updated>
+    </task>
+    <task id="LOCAL-00062" summary="remove profile box">
+      <created>1522222100363</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1522222100363</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix service detail">
+      <created>1522251897747</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1522251897749</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix navigation animate scroll">
+      <created>1522256585140</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1522256585140</updated>
+    </task>
+    <task id="LOCAL-00065" summary="fix about employees">
+      <created>1522256715975</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1522256715975</updated>
+    </task>
+    <task id="LOCAL-00066" summary="change fps: 32">
+      <created>1522290484492</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1522290484492</updated>
+    </task>
+    <task id="LOCAL-00067" summary="fix employee detail">
+      <created>1522291969759</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1522291969759</updated>
+    </task>
+    <task id="LOCAL-00068" summary="fix language tab">
+      <created>1522292000835</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1522292000835</updated>
+    </task>
+    <task id="LOCAL-00069" summary="fix organize-box :hover,:actived">
+      <created>1522292234563</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1522292234563</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fix work page: service description, service-feature">
+      <created>1522293313508</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1522293313509</updated>
+    </task>
+    <task id="LOCAL-00071" summary="change fps: 48">
+      <created>1522293830595</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1522293830595</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix html overflow-y: scroll">
+      <created>1522297022878</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1522297022879</updated>
+    </task>
+    <task id="LOCAL-00073" summary="fix html overflow-y: scroll">
+      <created>1522297149164</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1522297149164</updated>
+    </task>
+    <task id="LOCAL-00074" summary="fix logo animate">
+      <created>1522297651008</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1522297651008</updated>
+    </task>
+    <task id="LOCAL-00075" summary="update employee's image">
+      <created>1522298146531</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1522298146531</updated>
+    </task>
+    <task id="LOCAL-00076" summary="update employee's image">
+      <created>1522298369485</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1522298369485</updated>
+    </task>
+    <task id="LOCAL-00077" summary="update employee's image">
+      <created>1522298377823</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1522298377823</updated>
+    </task>
+    <task id="LOCAL-00078" summary="fix service-product">
+      <created>1522306777526</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1522306777526</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix contact detail">
+      <created>1522309617823</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1522309617823</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="233277000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15154749" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20732984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33926702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14941302" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix navigation scroll" />
+    <MESSAGE value="max width for service description" />
+    <MESSAGE value="fix scroll navigation" />
+    <MESSAGE value="add linkedin for Narin's profile" />
+    <MESSAGE value="remove nav animate when scroll up" />
+    <MESSAGE value="remove nav animate when scroll up to top" />
+    <MESSAGE value="fix nav animation" />
+    <MESSAGE value="fix hover employee" />
+    <MESSAGE value="max-width 1024 for service-detail" />
+    <MESSAGE value="fix flip employee" />
+    <MESSAGE value="remove profile box" />
+    <MESSAGE value="fix service detail" />
+    <MESSAGE value="fix navigation animate scroll" />
+    <MESSAGE value="fix about employees" />
+    <MESSAGE value="change fps: 32" />
+    <MESSAGE value="fix employee detail" />
+    <MESSAGE value="fix language tab" />
+    <MESSAGE value="fix organize-box :hover,:actived" />
+    <MESSAGE value="fix work page: service description, service-feature" />
+    <MESSAGE value="change fps: 48" />
+    <MESSAGE value="fix html overflow-y: scroll" />
+    <MESSAGE value="fix logo animate" />
+    <MESSAGE value="update employee's image" />
+    <MESSAGE value="fix service-product" />
+    <MESSAGE value="fix contact detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix contact detail" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/work.html" />
+    <entry file="file://$PROJECT_DIR$/_css/_work.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="28" lean-forward="true" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_account.scss" />
+    <entry file="file://$PROJECT_DIR$/_css/_dashboard.scss" />
+    <entry file="file://$PROJECT_DIR$/_css/_faq.scss" />
+    <entry file="file://$PROJECT_DIR$/_css/_login.scss" />
+    <entry file="file://$PROJECT_DIR$/_css/_map.scss" />
+    <entry file="file://$PROJECT_DIR$/_css/_popup.scss" />
+    <entry file="file://$PROJECT_DIR$/_css/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_sidebar.scss" />
+    <entry file="file://$PROJECT_DIR$/_css/_slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/main.scss" />
+    <entry file="file://$PROJECT_DIR$/_includes/language_box.html" />
+    <entry file="file://$PROJECT_DIR$/_includes/popup_buy_plan.html" />
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html" />
+    <entry file="file://$PROJECT_DIR$/_layouts/main.html" />
+    <entry file="file://$PROJECT_DIR$/images/asset_1.png" />
+    <entry file="file://$PROJECT_DIR$/page/account.html" />
+    <entry file="file://$PROJECT_DIR$/page/changepassword.html" />
+    <entry file="file://$PROJECT_DIR$/images/ajax-loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/tpvn-html/assets/tpvn.css" />
+    <entry file="file://$PROJECT_DIR$/_site/work.html" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/fontawesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/_site/images/logo--Text.png" />
+    <entry file="file://$PROJECT_DIR$/_js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/tpvn/thanhtrang.png" />
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/tpvn/assets/tpvn.css" />
+    <entry file="file://$PROJECT_DIR$/_site/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="202" column="70" lean-forward="false" selection-start-line="202" selection-start-column="70" selection-end-line="202" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/navigation_top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1370">
+          <caret line="115" column="18" lean-forward="false" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-migrate-1.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="96" lean-forward="true" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/tpvn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/logo_Animated--New.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="1080" column="44" lean-forward="false" selection-start-line="1080" selection-start-column="44" selection-end-line="1080" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_navigation_top.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="46" selection-end-line="148" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/_work.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#2147#2234#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_css/tpvn.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
